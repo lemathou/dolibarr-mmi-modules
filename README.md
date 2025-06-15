@@ -3,6 +3,7 @@
 List by Dolibarr Module ID
 
 https://wiki.dolibarr.org/index.php?title=List_of_modules_id
+
 ID 437800 - 437850: iProspective (https://iprospective.fr) - Mathieu Moulin
 
 ## Dolibarr-MMI
@@ -10,6 +11,7 @@ ID 437800 - 437850: iProspective (https://iprospective.fr) - Mathieu Moulin
 * Branches : 14.0-mmi, 15.0-mmi, 16.0-mmi, 17.0-mmi, 18.0-mmi, 19.0-mmi
 
 My Dolibarr Fork, with adjustemts for some of my modules.
+
 I will soon publish the list, and take the time to propose fixes and features in the Core.
 
 ## MMICommon
@@ -20,9 +22,9 @@ I will soon publish the list, and take the time to propose fixes and features in
 * Uses :  inHooks
 
 Base module for all my MMI Dolibarr modules
-Base classes overloaded
 
-Few features, like :
+### Features :
+* Base classes overloaded
 * Déclencher le trigger de mise à jour de l'objet lorsqu'on met à jour une note
 * Afficher un picto warning sur les liens client si on a une note privée, et l'afficher dans la popup 
 
@@ -94,8 +96,8 @@ New filters
 * Repos : https://github.com/lemathou/dolibarr-module-mmifournisseurprice
 
 ### Features :
-Calculation of cost price with shipping cost price and other.
-Shipping cost price can be automatically calculated using shipping in recent supplier orders.
+* Calculation of cost price with shipping cost price and other.
+* Shipping cost price can be automatically calculated using shipping in recent supplier orders.
 
 ## MMIPayments
 * Num 437809
@@ -104,9 +106,9 @@ Shipping cost price can be automatically calculated using shipping in recent sup
 Enhance global payment capabilities
 
 ### Features :
-Possibiilté de paiement sur les Devis/Commandes
-Affiche des moyens de paiements Chèque et Virement avec les infos sur la page de paiement.
-Ajout des liens de paiement sur les propales et commandes.
+* Possibiilté de paiement sur les Devis/Commandes
+* Affiche des moyens de paiements Chèque et Virement avec les infos sur la page de paiement.
+* Ajout des liens de paiement sur les propales et commandes.
 
 ## MMIPrestaSync
 * Num 437810
@@ -171,16 +173,18 @@ Modification des workflows pour automatiser et réduire les actions manuelles
 Advanced shipping options for Dolibarr
 
 ### Features :
-Automatic management of direct receipts/shipments from the supplier warehouse using a "virtual" warehouse for direct delivery
-Other useful options
+* Automatic management of direct receipts/shipments from the supplier warehouse using a "virtual" warehouse for direct delivery
+* Other useful options
 
 ## MMISecurity
 * Num 437819
 * Repos : https://github.com/lemathou/dolibarr-module-mmisecurity
 * Version : 1.0
 
-Security featuress for Dolibarr
-Limitation for non priviliged users by a list of privileged IP Addresses
+Security features for Dolibarr
+
+### Features :
+* Limitation for non priviliged users by a list of privileged IP Addresses
 
 ## MMIRedmine
 * Num 437820
@@ -239,4 +243,3 @@ Younited Payment Module for Dolibarr
 * Many differences with original module
 
 Payment for Crédit Agricole Etransactions / Up2Pay
-My Dolibarr Fork, with adjustemts for some of my modules
