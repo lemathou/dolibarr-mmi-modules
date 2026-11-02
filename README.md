@@ -36,7 +36,7 @@ All MMI modules depend on **MMICommon**, which must be enabled first.
 | [MMIWildx](https://github.com/lemathou/dolibarr-module-mmiwildx) | 437823 | 1.0 | WildX telephony connector: retrieve call history into the agenda and history. | mmicommon |
 | [MMIBrevo](https://github.com/lemathou/dolibarr-module-mmibrevo) | 437824 | 1.1 | Brevo connector: email/SMS campaigns, contacts and statistics. | mmicommon |
 | [MMIYounited](https://github.com/lemathou/dolibarr-module-mmiyounited) | 437825 | 1.1.3 | Younited Pay financing: loan/payment creation, offers, redirects, webhook and status tracking. | mmicommon, mmipayments |
-| [MBIETransactions](https://github.com/lemathou/dolibarr-module-mbietransactions) | 437826 | 1.3.0 | Monetico (MBE) / Up2Pay card payments: payment page, return pages, reconciliation and payment-tab integration. Fork of the original MBE Transactions module. | mmicommon, mmipayments |
+| [MBIETransactions](https://github.com/lemathou/dolibarr-module-mbietransactions) | 437826 | 1.3.0 | MBI ETransactions (MBI + ETransactions, now Up2Pay) card payments: payment page, return pages, reconciliation and payment-tab integration. Fork of the original MBI ETransactions module. | mmicommon, mmipayments |
 
 ## Module details
 
@@ -297,9 +297,9 @@ Younited Pay financing: loan/payment creation, offers, redirects, webhook and st
 ### [MBIETransactions](https://github.com/lemathou/dolibarr-module-mbietransactions)
 **ID 437826** · **v1.3.0** · Requires: mmicommon, mmipayments
 
-Monetico (MBE) / Up2Pay card payments: payment page, return pages, reconciliation and payment-tab integration. Fork of the original MBE Transactions module.
+MBI ETransactions (MBI + ETransactions, now Up2Pay) card payments: payment page, return pages, reconciliation and payment-tab integration. Fork of the original MBI ETransactions module.
 
-- Monetico payment page
+- MBI ETransactions payment page
 - Accepted, cancelled, refused and return pages
 - Return journal and reconciliation
 - Payment tab and secure payment links

@@ -36,7 +36,7 @@ Tous les modules MMI dépendent de **MMICommon**, qui doit être activé en prem
 | [MMIWildx](https://github.com/lemathou/dolibarr-module-mmiwildx) | 437823 | 1.0 | Connecteur de téléphonie WildX : récupération de l'historique des appels dans l'agenda et l'historique. | mmicommon |
 | [MMIBrevo](https://github.com/lemathou/dolibarr-module-mmibrevo) | 437824 | 1.1 | Connecteur Brevo : campagnes e-mail/SMS, contacts et statistiques. | mmicommon |
 | [MMIYounited](https://github.com/lemathou/dolibarr-module-mmiyounited) | 437825 | 1.1.3 | Financement Younited Pay : création de prêt/paiement, offres, redirections, webhook et suivi des statuts. | mmicommon, mmipayments |
-| [MBIETransactions](https://github.com/lemathou/dolibarr-module-mbietransactions) | 437826 | 1.3.0 | Paiement CB Monetico (MBE) / Up2Pay : page de paiement, pages de retour, rapprochement et intégration à l'onglet Paiements. Fork du module MBE Transactions d'origine. | mmicommon, mmipayments |
+| [MBIETransactions](https://github.com/lemathou/dolibarr-module-mbietransactions) | 437826 | 1.3.0 | Paiement CB MBI ETransactions (MBI + ETransactions, devenu Up2Pay) : page de paiement, pages de retour, rapprochement et intégration à l'onglet Paiements. Fork du module MBI ETransactions d'origine. | mmicommon, mmipayments |
 
 ## Détail des modules
 
@@ -297,9 +297,9 @@ Financement Younited Pay : création de prêt/paiement, offres, redirections, we
 ### [MBIETransactions](https://github.com/lemathou/dolibarr-module-mbietransactions)
 **ID 437826** · **v1.3.0** · Dépend de : mmicommon, mmipayments
 
-Paiement CB Monetico (MBE) / Up2Pay : page de paiement, pages de retour, rapprochement et intégration à l'onglet Paiements. Fork du module MBE Transactions d'origine.
+Paiement CB MBI ETransactions (MBI + ETransactions, devenu Up2Pay) : page de paiement, pages de retour, rapprochement et intégration à l'onglet Paiements. Fork du module MBI ETransactions d'origine.
 
-- Page de paiement Monetico
+- Page de paiement MBI ETransactions
 - Pages accepté, annulé, refusé et retour
 - Journal des retours et rapprochement
 - Onglet Paiements et liens de paiement sécurisés
