@@ -3,7 +3,7 @@
 **English** · [Français](README.fr.md)
 
 Open-source Dolibarr modules by **Mathieu Moulin / iProspective** (MMI), published on GitHub.
-Module IDs **437800–437826** (ID 437817 is not published).
+Module IDs **437800–437827** (ID 437817 is not published).
 
 All MMI modules depend on **MMICommon**, which must be enabled first.
 
@@ -37,6 +37,7 @@ All MMI modules depend on **MMICommon**, which must be enabled first.
 | [MMIBrevo](https://github.com/lemathou/dolibarr-module-mmibrevo) | 437824 | 1.1 | Brevo connector: email/SMS campaigns, contacts and statistics. | mmicommon |
 | [MMIYounited](https://github.com/lemathou/dolibarr-module-mmiyounited) | 437825 | 1.1.3 | Younited Pay financing: loan/payment creation, offers, redirects, webhook and status tracking. | mmicommon, mmipayments |
 | [MBIETransactions](https://github.com/lemathou/dolibarr-module-mbietransactions) | 437826 | 1.3.0 | MBI ETransactions (MBI + ETransactions, now Up2Pay) card payments: payment page, return pages, reconciliation and payment-tab integration. Fork of the original MBI ETransactions module. | mmicommon, mmipayments |
+| [MMIAtombox](https://github.com/iprospective/dolibarr-module-mmiatombox) | 437827 | 0.1.0 | AtomBox mail: mail exchanges on third-party, quote, order, invoice and project records, tags, an Exchanges tab and delegated webmail. | mmicommon |
 
 ## Module details
 
@@ -319,3 +320,15 @@ Published branches include `14.0-mmi`, `16.0-mmi`, `17.0-mmi`, `18.0-mmi`, `19.0
 Each module is distributed under the GNU GPL v3 or later (see the `COPYING` file in
 each repository); documentation is under the GFDL. Some modules also require core
 changes shipped in the MMI fork.
+
+### [MMIAtombox](https://github.com/iprospective/dolibarr-module-mmiatombox)
+**ID 437827** · **v0.1.0** · Requires: mmicommon
+
+Links Dolibarr to AtomBox: Dolibarr objects become tags, customer replies are filed on the right record and each record shows its exchanges.
+
+- Six tag axes: quotes, orders, invoices, projects, supplier orders and supplier invoices
+- "Exchanges" tab on records
+- Integrated delegated AtomBox webmail
+- Message-ID host declaration and object synchronization
+- Configuration: AtomBox URL, application token and account mapping
+

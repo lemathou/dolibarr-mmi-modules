@@ -3,7 +3,7 @@
 [English](README.md) · **Français**
 
 Modules Dolibarr open source de **Mathieu Moulin / iProspective** (MMI), publiés sur GitHub.
-IDs de modules **437800–437826** (l'ID 437817 n'est pas publié).
+IDs de modules **437800–437827** (l'ID 437817 n'est pas publié).
 
 Tous les modules MMI dépendent de **MMICommon**, qui doit être activé en premier.
 
@@ -37,6 +37,7 @@ Tous les modules MMI dépendent de **MMICommon**, qui doit être activé en prem
 | [MMIBrevo](https://github.com/lemathou/dolibarr-module-mmibrevo) | 437824 | 1.1 | Connecteur Brevo : campagnes e-mail/SMS, contacts et statistiques. | mmicommon |
 | [MMIYounited](https://github.com/lemathou/dolibarr-module-mmiyounited) | 437825 | 1.1.3 | Financement Younited Pay : création de prêt/paiement, offres, redirections, webhook et suivi des statuts. | mmicommon, mmipayments |
 | [MBIETransactions](https://github.com/lemathou/dolibarr-module-mbietransactions) | 437826 | 1.3.0 | Paiement CB MBI ETransactions (MBI + ETransactions, devenu Up2Pay) : page de paiement, pages de retour, rapprochement et intégration à l'onglet Paiements. Fork du module MBI ETransactions d'origine. | mmicommon, mmipayments |
+| [MMIAtombox](https://github.com/iprospective/dolibarr-module-mmiatombox) | 437827 | 0.1.0 | Courrier AtomBox : échanges de courrier sur les fiches tiers, propositions, commandes, factures et projets, tags, onglet Échanges et webmail délégué. | mmicommon |
 
 ## Détail des modules
 
@@ -319,3 +320,15 @@ Branches publiées : `14.0-mmi`, `16.0-mmi`, `17.0-mmi`, `18.0-mmi`, `19.0-mmi`
 Chaque module est distribué sous GNU GPL v3 ou ultérieure (voir le fichier `COPYING`
 du dépôt) ; la documentation est sous GFDL. Certains modules nécessitent également des
 modifications du cœur fournies par le fork MMI.
+
+### [MMIAtombox](https://github.com/iprospective/dolibarr-module-mmiatombox)
+**ID 437827** · **v0.1.0** · Dépend de : mmicommon
+
+Relie Dolibarr à AtomBox : les objets Dolibarr deviennent des tags, les réponses clients se rangent sur la bonne fiche et chaque fiche affiche ses échanges.
+
+- Six axes de tags : propositions, commandes, factures, projets, commandes et factures fournisseurs
+- Onglet « Échanges » sur les fiches
+- Webmail AtomBox délégué intégré
+- Déclaration des hôtes Message-ID et synchronisation des objets
+- Configuration : adresse AtomBox, jeton d'application et correspondance des comptes
+
